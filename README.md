@@ -14,6 +14,9 @@
 
 ## Step 5: Install nvim
 
-## Step 6: Create the directory ~/.config/nvim/ and copy the init.vim file into it
+## Step 6: Get the nvim plugin manager
+- curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-## Step 7: Open nvim in normal mode and type " :PlugInstall "
+## Step 7: Create the directory ~/.config/nvim/ and copy the init.vim file into it
+
+## Step 8: Open nvim in normal mode and type " :PlugInstall "
